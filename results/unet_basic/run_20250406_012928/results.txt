@@ -1,0 +1,5 @@
+test_loss: 0.1995161735405356
+test_dice: 0.6703985954369874
+training_time: 3711.9433629512787
+parameters: 17262977
+hyperparameters: {'data_dir': './data/lgg-mri-segmentation', 'results_dir': './results/unet_basic', 'num_workers': 4, 'model_type': 'unet', 'batch_size': 8, 'epochs': 10, 'learning_rate': 0.001, 'weight_decay': 1e-05, 'bce_weight': 0.5, 'optimizer': 'adam', 'scheduler': 'step', 'step_size': 7, 'gamma': 0.1, 'seed': 42}

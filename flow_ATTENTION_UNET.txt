@@ -1,0 +1,99 @@
+Using device: cuda
+Preparing dataset...
+Dataset loaded: 2750 training, 589 validation, 590 test samples
+Creating attention_unet model...
+Model created with 17614509 parameters
+Training model for 20 epochs...
+Epoch 1/20
+----------
+Train Loss: 0.3899 Dice: 0.4542
+Val Loss: 0.3428 Dice: 0.4002
+New best model saved with Dice: 0.4002
+Epoch 2/20
+----------
+Train Loss: 0.2596 Dice: 0.5382
+Val Loss: 0.2780 Dice: 0.5203
+New best model saved with Dice: 0.5203
+Epoch 3/20
+----------
+Train Loss: 0.2584 Dice: 0.5382
+Val Loss: 0.3234 Dice: 0.4463
+Epoch 4/20
+----------
+Train Loss: 0.2428 Dice: 0.5645
+Val Loss: 0.3395 Dice: 0.4152
+Epoch 5/20
+----------
+Train Loss: 0.2271 Dice: 0.5918
+Val Loss: 0.2829 Dice: 0.4889
+Train Loss: 0.2180 Dice: 0.6115
+Val Loss: 0.2761 Dice: 0.5135
+Epoch 7/20
+----------
+Train Loss: 0.2088 Dice: 0.6257
+Val Loss: 0.3512 Dice: 0.3942
+Epoch 8/20
+----------
+Train Loss: 0.2045 Dice: 0.6345
+Val Loss: 0.2464 Dice: 0.5578
+New best model saved with Dice: 0.5578
+Epoch 9/20
+----------
+Train Loss: 0.1868 Dice: 0.6641
+Val Loss: 0.2347 Dice: 0.5788
+New best model saved with Dice: 0.5788
+Epoch 10/20
+----------
+Train Loss: 0.1746 Dice: 0.6881
+Val Loss: 0.2327 Dice: 0.5813
+New best model saved with Dice: 0.5813
+Epoch 11/20
+----------
+Train Loss: 0.1746 Dice: 0.6897
+Val Loss: 0.2268 Dice: 0.5933
+New best model saved with Dice: 0.5933
+Epoch 12/20
+----------
+Train Loss: 0.1823 Dice: 0.6739
+Val Loss: 0.2316 Dice: 0.5751
+Epoch 13/20
+----------
+Train Loss: 0.1776 Dice: 0.6826
+Val Loss: 0.2218 Dice: 0.5886
+Epoch 14/20
+----------
+Train Loss: 0.1715 Dice: 0.6905
+Val Loss: 0.2016 Dice: 0.6268
+New best model saved with Dice: 0.6268
+Epoch 15/20
+----------
+Train Loss: 0.1686 Dice: 0.6956
+Val Loss: 0.1989 Dice: 0.6324
+New best model saved with Dice: 0.6324
+Epoch 16/20
+----------
+Train Loss: 0.1670 Dice: 0.6972
+Val Loss: 0.2025 Dice: 0.6250
+Epoch 17/20
+----------
+Train Loss: 0.1627 Dice: 0.7062
+Val Loss: 0.1988 Dice: 0.6443
+New best model saved with Dice: 0.6443
+Epoch 18/20
+----------
+Train Loss: 0.1582 Dice: 0.7156
+Val Loss: 0.2003 Dice: 0.6274
+Epoch 19/20
+----------
+Train Loss: 0.1646 Dice: 0.7027
+Val Loss: 0.2051 Dice: 0.6307
+Epoch 20/20
+----------
+Train Loss: 0.1576 Dice: 0.7163
+Val Loss: 0.2037 Dice: 0.6336
+Training completed in 11508.32 seconds
+Model saved to ./results/attention_unet\run_20250406_024832\final_model.pth
+Evaluating model on test set...
+Test Loss: 0.1781 Dice: 0.6738
+All results saved to ./results/attention_unet\run_20250406_024832
+Test Dice Score: 0.6738

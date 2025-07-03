@@ -1,0 +1,242 @@
+[
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.0001,
+      "optimizer": "adam",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.6606761693385824,
+    "training_time": 1797.774064540863
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.0001,
+      "optimizer": "adamw",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.6593894767989148,
+    "training_time": 1848.2472982406616
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.0001,
+      "optimizer": "adamw",
+      "scheduler": "step"
+    },
+    "val_dice": 0.6392490110129954,
+    "training_time": 1907.5102770328522
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.0001,
+      "optimizer": "adam",
+      "scheduler": "step"
+    },
+    "val_dice": 0.6222241595542943,
+    "training_time": 2212.542163133621
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.0001,
+      "optimizer": "adam",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.6051479454019675,
+    "training_time": 2070.789502620697
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.0001,
+      "optimizer": "adam",
+      "scheduler": "step"
+    },
+    "val_dice": 0.6008252611290292,
+    "training_time": 1819.873019695282
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.0001,
+      "optimizer": "adamw",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5980211645215054,
+    "training_time": 2114.8148531913757
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.0001,
+      "optimizer": "adamw",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.5915876649869279,
+    "training_time": 2212.8418095111847
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.001,
+      "optimizer": "adam",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5796619964218489,
+    "training_time": 2113.6163527965546
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.001,
+      "optimizer": "adam",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.5682871661532275,
+    "training_time": 2104.2478165626526
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.001,
+      "optimizer": "adamw",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.5638654369171414,
+    "training_time": 2206.86101770401
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.001,
+      "optimizer": "adamw",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5633861977596196,
+    "training_time": 2136.835547685623
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.01,
+      "optimizer": "adamw",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.5597481921937719,
+    "training_time": 2224.6800096035004
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.001,
+      "optimizer": "adam",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.5583276005417676,
+    "training_time": 1798.4771745204926
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.001,
+      "optimizer": "adamw",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5490633312968096,
+    "training_time": 1819.9082124233246
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.001,
+      "optimizer": "adam",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5440583234304446,
+    "training_time": 1799.3928821086884
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.01,
+      "optimizer": "adam",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.5292009397578881,
+    "training_time": 1783.7483773231506
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.001,
+      "optimizer": "adamw",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.5280194107606017,
+    "training_time": 1794.508941411972
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.01,
+      "optimizer": "adam",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5150706554007045,
+    "training_time": 2063.754231929779
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.01,
+      "optimizer": "adamw",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5148238935654207,
+    "training_time": 2321.7885344028473
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.01,
+      "optimizer": "adam",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5128134342086281,
+    "training_time": 1817.1232104301453
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.01,
+      "optimizer": "adamw",
+      "scheduler": "step"
+    },
+    "val_dice": 0.5048194816070649,
+    "training_time": 1784.6968395709991
+  },
+  {
+    "params": {
+      "model_type": "unet",
+      "learning_rate": 0.01,
+      "optimizer": "adamw",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.48322563187603274,
+    "training_time": 1799.4385232925415
+  },
+  {
+    "params": {
+      "model_type": "attention_unet",
+      "learning_rate": 0.01,
+      "optimizer": "adam",
+      "scheduler": "cosine"
+    },
+    "val_dice": 0.21991967550245892,
+    "training_time": 2097.856466770172
+  }
+]

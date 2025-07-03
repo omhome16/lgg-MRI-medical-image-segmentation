@@ -1,0 +1,59 @@
+Using device: cuda
+Preparing dataset...
+Dataset loaded: 2750 training, 589 validation, 590 test samples
+Creating unet model...
+Model created with 17262977 parameters
+Training model for 10 epochs...
+Epoch 1/10
+----------
+Train Loss: 0.3812 Dice: 0.4685
+Val Loss: 0.3398 Dice: 0.4108
+New best model saved with Dice: 0.4108
+Epoch 2/10
+----------
+Train Loss: 0.2569 Dice: 0.5450
+Val Loss: 0.3080 Dice: 0.4808
+New best model saved with Dice: 0.4808
+Epoch 3/10
+----------
+Train Loss: 0.2591 Dice: 0.5372
+Val Loss: 0.2867 Dice: 0.4958
+New best model saved with Dice: 0.4958
+Epoch 4/10
+----------
+Train Loss: 0.2292 Dice: 0.5904
+Val Loss: 0.2773 Dice: 0.4983
+New best model saved with Dice: 0.4983
+Epoch 5/10
+----------
+Train Loss: 0.2178 Dice: 0.6096
+Val Loss: 0.2436 Dice: 0.5589
+New best model saved with Dice: 0.5589
+Epoch 6/10
+----------
+Train Loss: 0.2072 Dice: 0.6293
+Val Loss: 0.2756 Dice: 0.5138
+Epoch 7/10
+----------
+Train Loss: 0.2013 Dice: 0.6446
+Val Loss: 0.2720 Dice: 0.5220
+Epoch 8/10
+----------
+Train Loss: 0.1833 Dice: 0.6722
+Val Loss: 0.2303 Dice: 0.5870
+New best model saved with Dice: 0.5870
+Epoch 9/10
+----------
+Train Loss: 0.1792 Dice: 0.6777
+Val Loss: 0.2189 Dice: 0.6114
+New best model saved with Dice: 0.6114
+Epoch 10/10
+----------
+Train Loss: 0.1678 Dice: 0.7019
+Val Loss: 0.2290 Dice: 0.5870
+Training completed in 3711.94 seconds
+Model saved to ./results/unet_basic\run_20250406_012928\final_model.pth
+Evaluating model on test set...
+Test Loss: 0.1995 Dice: 0.6704
+All results saved to ./results/unet_basic\run_20250406_012928
+Test Dice Score: 0.6704

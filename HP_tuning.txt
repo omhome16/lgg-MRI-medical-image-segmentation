@@ -1,0 +1,531 @@
+Using device: cuda
+Preparing dataset...
+Testing combination 1/24: {'model_type': 'unet', 'learning_rate': 0.01, 'optimizer': 'adam', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.3512 Dice: 0.3751
+Val Loss: 0.3943 Dice: 0.3179
+New best model saved with Dice: 0.3179
+Epoch 2/5
+----------
+Train Loss: 0.3217 Dice: 0.4239
+Val Loss: 3.9154 Dice: 0.0803
+Epoch 3/5
+----------
+Train Loss: 0.2893 Dice: 0.4846
+Val Loss: 0.3514 Dice: 0.3617
+New best model saved with Dice: 0.3617
+Epoch 4/5
+----------
+Train Loss: 0.2633 Dice: 0.5328
+Val Loss: 0.3230 Dice: 0.4538
+New best model saved with Dice: 0.4538
+Epoch 5/5
+----------
+Train Loss: 0.2470 Dice: 0.5628
+Val Loss: 0.2810 Dice: 0.5128
+New best model saved with Dice: 0.5128
+Validation Dice: 0.5128, Training time: 1817.12s
+Testing combination 2/24: {'model_type': 'unet', 'learning_rate': 0.01, 'optimizer': 'adam', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.3377 Dice: 0.4135
+Val Loss: 0.3813 Dice: 0.3439
+New best model saved with Dice: 0.3439
+Epoch 2/5
+----------
+Train Loss: 0.3139 Dice: 0.4612
+Val Loss: 1.0145 Dice: 0.2055
+Epoch 3/5
+----------
+Train Loss: 0.2843 Dice: 0.4955
+Val Loss: 0.3151 Dice: 0.4678
+New best model saved with Dice: 0.4678
+Epoch 4/5
+----------
+Train Loss: 0.2590 Dice: 0.5419
+Val Loss: 0.2794 Dice: 0.4864
+New best model saved with Dice: 0.4864
+Epoch 5/5
+----------
+Train Loss: 0.2382 Dice: 0.5789
+Val Loss: 0.2848 Dice: 0.5292
+New best model saved with Dice: 0.5292
+Validation Dice: 0.5292, Training time: 1783.75s
+Testing combination 3/24: {'model_type': 'unet', 'learning_rate': 0.01, 'optimizer': 'adamw', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.3397 Dice: 0.4018
+Val Loss: 0.4320 Dice: 0.2749
+New best model saved with Dice: 0.2749
+Epoch 2/5
+----------
+Train Loss: 0.2814 Dice: 0.4977
+Val Loss: 0.3460 Dice: 0.4002
+New best model saved with Dice: 0.4002
+Epoch 3/5
+----------
+Train Loss: 0.2527 Dice: 0.5468
+Val Loss: 0.2861 Dice: 0.4980
+New best model saved with Dice: 0.4980
+Epoch 4/5
+----------
+Train Loss: 0.2288 Dice: 0.5903
+Val Loss: 0.2623 Dice: 0.5593
+New best model saved with Dice: 0.5593
+Epoch 5/5
+----------
+Train Loss: 0.2235 Dice: 0.6030
+Val Loss: 0.2842 Dice: 0.5048
+Validation Dice: 0.5048, Training time: 1784.70s
+Testing combination 4/24: {'model_type': 'unet', 'learning_rate': 0.01, 'optimizer': 'adamw', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.3328 Dice: 0.4129
+Val Loss: 0.3123 Dice: 0.4383
+New best model saved with Dice: 0.4383
+Epoch 2/5
+----------
+Train Loss: 0.2583 Dice: 0.5365
+Val Loss: 0.3508 Dice: 0.3682
+Epoch 3/5
+----------
+Train Loss: 0.2364 Dice: 0.5769
+Val Loss: 0.3013 Dice: 0.4805
+New best model saved with Dice: 0.4805
+Epoch 4/5
+----------
+Train Loss: 0.2089 Dice: 0.6238
+Val Loss: 0.4100 Dice: 0.2836
+Epoch 5/5
+----------
+----------
+Train Loss: 0.2268 Dice: 0.5959
+Val Loss: 0.2841 Dice: 0.5078
+New best model saved with Dice: 0.5078
+Epoch 4/5
+----------
+Train Loss: 0.2213 Dice: 0.6024
+Val Loss: 0.2559 Dice: 0.5507
+New best model saved with Dice: 0.5507
+Epoch 5/5
+----------
+Train Loss: 0.2234 Dice: 0.5991
+Val Loss: 0.2454 Dice: 0.5491
+Validation Dice: 0.5491, Training time: 1819.91s
+Testing combination 8/24: {'model_type': 'unet', 'learning_rate': 0.001, 'optimizer': 'adamw', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.4264 Dice: 0.4336
+Val Loss: 0.3715 Dice: 0.3633
+New best model saved with Dice: 0.3633
+Epoch 2/5
+----------
+Train Loss: 0.2755 Dice: 0.5128
+Val Loss: 0.2612 Dice: 0.5280
+New best model saved with Dice: 0.5280
+Validation Dice: 0.5280, Training time: 1794.51s
+Testing combination 9/24: {'model_type': 'unet', 'learning_rate': 0.0001, 'optimizer': 'adam', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.6060 Dice: 0.4111
+Val Loss: 0.5713 Dice: 0.3336
+New best model saved with Dice: 0.3336
+Epoch 2/5
+----------
+Train Loss: 0.5014 Dice: 0.5348
+Val Loss: 0.4788 Dice: 0.4944
+New best model saved with Dice: 0.4944
+Epoch 3/5
+----------
+Train Loss: 0.4181 Dice: 0.5977
+Val Loss: 0.4064 Dice: 0.5515
+New best model saved with Dice: 0.5515
+Epoch 4/5
+----------
+Train Loss: 0.3325 Dice: 0.6311
+Val Loss: 0.3366 Dice: 0.5363
+Epoch 5/5
+----------
+Train Loss: 0.2588 Dice: 0.6611
+Val Loss: 0.2822 Dice: 0.6008
+New best model saved with Dice: 0.6008
+Validation Dice: 0.6008, Training time: 1819.87s
+Testing combination 10/24: {'model_type': 'unet', 'learning_rate': 0.0001, 'optimizer': 'adam', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.5677 Dice: 0.5321
+Val Loss: 0.5215 Dice: 0.4921
+New best model saved with Dice: 0.4921
+Epoch 2/5
+----------
+Train Loss: 0.4718 Dice: 0.5821
+Val Loss: 0.4493 Dice: 0.5898
+New best model saved with Dice: 0.5898
+Epoch 3/5
+----------
+Train Loss: 0.3837 Dice: 0.6265
+Val Loss: 0.3852 Dice: 0.5477
+Epoch 4/5
+----------
+Train Loss: 0.2958 Dice: 0.6761
+Val Loss: 0.3391 Dice: 0.5514
+Epoch 5/5
+----------
+Train Loss: 0.2285 Dice: 0.7257
+Val Loss: 0.2466 Dice: 0.6607
+New best model saved with Dice: 0.6607
+Validation Dice: 0.6607, Training time: 1797.77s
+Testing combination 11/24: {'model_type': 'unet', 'learning_rate': 0.0001, 'optimizer': 'adamw', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.5890 Dice: 0.5040
+Val Loss: 0.5379 Dice: 0.3968
+New best model saved with Dice: 0.3968
+Epoch 2/5
+----------
+Train Loss: 0.4928 Dice: 0.5737
+Val Loss: 0.4683 Dice: 0.5074
+New best model saved with Dice: 0.5074
+Epoch 3/5
+----------
+Train Loss: 0.4125 Dice: 0.5976
+Val Loss: 0.3992 Dice: 0.5776
+New best model saved with Dice: 0.5776
+Epoch 4/5
+----------
+Train Loss: 0.3237 Dice: 0.6417
+Val Loss: 0.3274 Dice: 0.5248
+Epoch 5/5
+----------
+Train Loss: 0.2504 Dice: 0.6645
+Val Loss: 0.2582 Dice: 0.6392
+New best model saved with Dice: 0.6392
+Validation Dice: 0.6392, Training time: 1907.51s
+Testing combination 12/24: {'model_type': 'unet', 'learning_rate': 0.0001, 'optimizer': 'adamw', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.6429 Dice: 0.4611
+Val Loss: 0.5834 Dice: 0.3940
+New best model saved with Dice: 0.3940
+Epoch 2/5
+----------
+Train Loss: 0.5409 Dice: 0.5682
+Val Loss: 0.5094 Dice: 0.5737
+New best model saved with Dice: 0.5737
+Epoch 3/5
+----------
+Train Loss: 0.4703 Dice: 0.5933
+Val Loss: 0.4409 Dice: 0.6039
+New best model saved with Dice: 0.6039
+Epoch 4/5
+----------
+Train Loss: 0.4049 Dice: 0.6104
+Val Loss: 0.3972 Dice: 0.6078
+New best model saved with Dice: 0.6078
+Epoch 5/5
+----------
+Train Loss: 0.3348 Dice: 0.6625
+Val Loss: 0.3337 Dice: 0.6594
+New best model saved with Dice: 0.6594
+Validation Dice: 0.6594, Training time: 1848.25s
+Testing combination 13/24: {'model_type': 'attention_unet', 'learning_rate': 0.01, 'optimizer': 'adam', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.3916 Dice: 0.3075
+Val Loss: 0.3855 Dice: 0.3276
+New best model saved with Dice: 0.3276
+Epoch 2/5
+----------
+Train Loss: 0.3192 Dice: 0.4287
+Val Loss: 0.4528 Dice: 0.2286
+Epoch 3/5
+----------
+Train Loss: 0.2980 Dice: 0.4683
+Val Loss: 0.2976 Dice: 0.4548
+New best model saved with Dice: 0.4548
+Epoch 4/5
+----------
+Train Loss: 0.2539 Dice: 0.5451
+Val Loss: 0.3111 Dice: 0.4437
+Epoch 5/5
+----------
+Train Loss: 0.2499 Dice: 0.5518
+Val Loss: 0.2650 Dice: 0.5151
+New best model saved with Dice: 0.5151
+Validation Dice: 0.5151, Training time: 2063.75s
+Testing combination 14/24: {'model_type': 'attention_unet', 'learning_rate': 0.01, 'optimizer': 'adam', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.3432 Dice: 0.3832
+Val Loss: 0.3642 Dice: 0.3622
+New best model saved with Dice: 0.3622
+Epoch 2/5
+----------
+Train Loss: 0.2965 Dice: 0.4708
+Val Loss: 0.2918 Dice: 0.4654
+New best model saved with Dice: 0.4654
+Epoch 3/5
+----------
+Train Loss: 0.2572 Dice: 0.5365
+Val Loss: 0.3259 Dice: 0.4349
+Epoch 4/5
+----------
+Train Loss: 0.2320 Dice: 0.5827
+Val Loss: 0.3418 Dice: 0.4067
+Epoch 5/5
+----------
+Train Loss: 0.2082 Dice: 0.6258
+Val Loss: 0.5266 Dice: 0.2199
+Validation Dice: 0.2199, Training time: 2097.86s
+Testing combination 15/24: {'model_type': 'attention_unet', 'learning_rate': 0.01, 'optimizer': 'adamw', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.3580 Dice: 0.3652
+Val Loss: 0.3669 Dice: 0.3481
+New best model saved with Dice: 0.3481
+Epoch 2/5
+----------
+Train Loss: 0.2625 Dice: 0.5293
+Val Loss: 0.2804 Dice: 0.4838
+New best model saved with Dice: 0.4838
+Epoch 3/5
+----------
+Train Loss: 0.2202 Dice: 0.6079
+Val Loss: 0.2713 Dice: 0.5036
+New best model saved with Dice: 0.5036
+Epoch 4/5
+----------
+Train Loss: 0.2311 Dice: 0.5842
+Val Loss: 0.3444 Dice: 0.3992
+Epoch 5/5
+----------
+Train Loss: 0.2199 Dice: 0.6036
+Val Loss: 0.2682 Dice: 0.5148
+New best model saved with Dice: 0.5148
+Validation Dice: 0.5148, Training time: 2321.79s
+Testing combination 16/24: {'model_type': 'attention_unet', 'learning_rate': 0.01, 'optimizer': 'adamw', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.3373 Dice: 0.4051
+Val Loss: 0.3533 Dice: 0.4045
+New best model saved with Dice: 0.4045
+Epoch 2/5
+----------
+Train Loss: 0.2708 Dice: 0.5150
+Val Loss: 0.2824 Dice: 0.5035
+New best model saved with Dice: 0.5035
+Epoch 3/5
+----------
+Train Loss: 0.2308 Dice: 0.5876
+Val Loss: 0.2706 Dice: 0.5241
+New best model saved with Dice: 0.5241
+Epoch 4/5
+----------
+Train Loss: 0.2204 Dice: 0.6056
+Val Loss: 0.2736 Dice: 0.5453
+New best model saved with Dice: 0.5453
+Epoch 5/5
+----------
+Train Loss: 0.2300 Dice: 0.5886
+Val Loss: 0.2656 Dice: 0.5597
+New best model saved with Dice: 0.5597
+Validation Dice: 0.5597, Training time: 2224.68s
+Testing combination 17/24: {'model_type': 'attention_unet', 'learning_rate': 0.001, 'optimizer': 'adam', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.3975 Dice: 0.4344
+Val Loss: 0.5299 Dice: 0.0676
+New best model saved with Dice: 0.0676
+Epoch 2/5
+----------
+Train Loss: 0.2673 Dice: 0.5280
+Val Loss: 0.3216 Dice: 0.4561
+New best model saved with Dice: 0.4561
+Epoch 3/5
+----------
+Train Loss: 0.2385 Dice: 0.5750
+Val Loss: 0.2428 Dice: 0.5504
+New best model saved with Dice: 0.5504
+Epoch 4/5
+----------
+Epoch 5/5
+----------
+Train Loss: 0.2208 Dice: 0.6064
+Val Loss: 0.2488 Dice: 0.5797
+New best model saved with Dice: 0.5797
+Validation Dice: 0.5797, Training time: 2113.62s
+Testing combination 18/24: {'model_type': 'attention_unet', 'learning_rate': 0.001, 'optimizer': 'adam', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.4112 Dice: 0.4387
+Val Loss: 0.4128 Dice: 0.2981
+New best model saved with Dice: 0.2981
+Epoch 2/5
+----------
+Train Loss: 0.2498 Dice: 0.5582
+Val Loss: 0.4752 Dice: 0.1707
+Epoch 3/5
+----------
+Train Loss: 0.2378 Dice: 0.5750
+Val Loss: 0.3048 Dice: 0.4878
+New best model saved with Dice: 0.4878
+Epoch 4/5
+----------
+Train Loss: 0.2288 Dice: 0.5904
+Val Loss: 0.2542 Dice: 0.5317
+New best model saved with Dice: 0.5317
+Epoch 5/5
+----------
+Train Loss: 0.1993 Dice: 0.6467
+Val Loss: 0.2415 Dice: 0.5683
+New best model saved with Dice: 0.5683
+Validation Dice: 0.5683, Training time: 2104.25s
+Testing combination 19/24: {'model_type': 'attention_unet', 'learning_rate': 0.001, 'optimizer': 'adamw', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.4100 Dice: 0.4203
+Val Loss: 0.3564 Dice: 0.3986
+New best model saved with Dice: 0.3986
+Epoch 2/5
+----------
+Train Loss: 0.2519 Dice: 0.5555
+Val Loss: 0.4094 Dice: 0.2873
+Epoch 3/5
+----------
+Train Loss: 0.2305 Dice: 0.5896
+Val Loss: 0.2860 Dice: 0.4781
+New best model saved with Dice: 0.4781
+Epoch 4/5
+----------
+Train Loss: 0.2260 Dice: 0.5954
+Val Loss: 0.2611 Dice: 0.5546
+New best model saved with Dice: 0.5546
+Epoch 5/5
+----------
+Train Loss: 0.2099 Dice: 0.6231
+Val Loss: 0.2583 Dice: 0.5634
+New best model saved with Dice: 0.5634
+Validation Dice: 0.5634, Training time: 2136.84s
+Testing combination 20/24: {'model_type': 'attention_unet', 'learning_rate': 0.001, 'optimizer': 'adamw', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.3894 Dice: 0.4634
+Val Loss: 0.3871 Dice: 0.3915
+New best model saved with Dice: 0.3915
+Epoch 2/5
+----------
+Train Loss: 0.2562 Dice: 0.5462
+Val Loss: 0.3015 Dice: 0.4598
+New best model saved with Dice: 0.4598
+Epoch 3/5
+----------
+Train Loss: 0.2313 Dice: 0.5871
+Val Loss: 0.2601 Dice: 0.5213
+New best model saved with Dice: 0.5213
+Validation Dice: 0.5639, Training time: 2206.86s
+Testing combination 21/24: {'model_type': 'attention_unet', 'learning_rate': 0.0001, 'optimizer': 'adam', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.6023 Dice: 0.4799
+Val Loss: 0.5680 Dice: 0.4420
+New best model saved with Dice: 0.4420
+Epoch 2/5
+----------
+Train Loss: 0.5139 Dice: 0.5782
+Val Loss: 0.4920 Dice: 0.5104
+New best model saved with Dice: 0.5104
+Epoch 3/5
+----------
+Train Loss: 0.4473 Dice: 0.5895
+Val Loss: 0.4323 Dice: 0.5755
+New best model saved with Dice: 0.5755
+Epoch 4/5
+----------
+Train Loss: 0.3739 Dice: 0.6238
+Val Loss: 0.3621 Dice: 0.5925
+New best model saved with Dice: 0.5925
+Epoch 5/5
+----------
+Train Loss: 0.3028 Dice: 0.6515
+Val Loss: 0.3063 Dice: 0.6222
+New best model saved with Dice: 0.6222
+Validation Dice: 0.6222, Training time: 2212.54s
+Testing combination 22/24: {'model_type': 'attention_unet', 'learning_rate': 0.0001, 'optimizer': 'adam', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.6116 Dice: 0.4911
+Val Loss: 0.5654 Dice: 0.5067
+New best model saved with Dice: 0.5067
+Epoch 2/5
+----------
+Train Loss: 0.5158 Dice: 0.5529
+Val Loss: 0.4968 Dice: 0.5036
+Epoch 3/5
+----------
+Train Loss: 0.4404 Dice: 0.6102
+Val Loss: 0.4256 Dice: 0.5630
+New best model saved with Dice: 0.5630
+Epoch 4/5
+----------
+Train Loss: 0.3733 Dice: 0.6128
+Val Loss: 0.3506 Dice: 0.6078
+New best model saved with Dice: 0.6078
+Epoch 5/5
+----------
+Train Loss: 0.2955 Dice: 0.6791
+Val Loss: 0.3035 Dice: 0.6051
+Validation Dice: 0.6051, Training time: 2070.79s
+Testing combination 23/24: {'model_type': 'attention_unet', 'learning_rate': 0.0001, 'optimizer': 'adamw', 'scheduler': 'step'}
+Epoch 1/5
+----------
+Train Loss: 0.6195 Dice: 0.4793
+Val Loss: 0.5773 Dice: 0.4859
+New best model saved with Dice: 0.4859
+Epoch 2/5
+----------
+Train Loss: 0.5303 Dice: 0.5787
+Val Loss: 0.4985 Dice: 0.5083
+New best model saved with Dice: 0.5083
+Epoch 3/5
+----------
+Train Loss: 0.4613 Dice: 0.5795
+Val Loss: 0.4529 Dice: 0.5498
+New best model saved with Dice: 0.5498
+Epoch 4/5
+----------
+Train Loss: 0.3804 Dice: 0.6151
+Val Loss: 0.4197 Dice: 0.3805
+Epoch 5/5
+----------
+Train Loss: 0.2985 Dice: 0.6466
+Val Loss: 0.3121 Dice: 0.5980
+New best model saved with Dice: 0.5980
+Validation Dice: 0.5980, Training time: 2114.81s
+Testing combination 24/24: {'model_type': 'attention_unet', 'learning_rate': 0.0001, 'optimizer': 'adamw', 'scheduler': 'cosine'}
+Epoch 1/5
+----------
+Train Loss: 0.6310 Dice: 0.4601
+Val Loss: 0.5777 Dice: 0.4295
+New best model saved with Dice: 0.4295
+Epoch 2/5
+----------
+Train Loss: 0.5339 Dice: 0.5401
+Val Loss: 0.5119 Dice: 0.4281
+Epoch 3/5
+----------
+Train Loss: 0.4618 Dice: 0.5790
+Val Loss: 0.4441 Dice: 0.5069
+New best model saved with Dice: 0.5069
+Epoch 4/5
+----------
+Train Loss: 0.3886 Dice: 0.6239
+Val Loss: 0.3829 Dice: 0.6262
+New best model saved with Dice: 0.6262
+Epoch 5/5
+----------
+Train Loss: 0.3163 Dice: 0.6752
+Val Loss: 0.3397 Dice: 0.5916
+Validation Dice: 0.5916, Training time: 2212.84s
+Best hyperparameters: {'model_type': 'unet', 'learning_rate': 0.0001, 'optimizer': 'adam', 'scheduler': 'cosine'}
+Best validation Dice: 0.6607

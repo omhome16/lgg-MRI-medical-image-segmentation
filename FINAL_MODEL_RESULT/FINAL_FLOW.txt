@@ -1,0 +1,192 @@
+PS D:\Machine-Learning\Medical Image Segmentation> python scripts/train_model.py --data_dir ./data/lgg-mri-segmentation --model_type unet --epochs 50 --batch_size 8 --optimizer adam --learning_rate 0.0001 --scheduler cosine --results_dir ./results/final_model
+Using device: cuda
+Preparing dataset...
+Dataset loaded: 2750 training, 589 validation, 590 test samples
+Creating unet model...
+Model created with 17262977 parameters
+Training model for 50 epochs...
+Epoch 1/50
+----------
+Train Loss: 0.6160 Dice: 0.4527
+Val Loss: 0.5862 Dice: 0.3430
+New best model saved with Dice: 0.3430
+Epoch 2/50
+----------
+Train Loss: 0.5125 Dice: 0.5393
+Val Loss: 0.4874 Dice: 0.5145
+New best model saved with Dice: 0.5145
+Epoch 3/50
+----------
+Train Loss: 0.4359 Dice: 0.5684
+Val Loss: 0.4245 Dice: 0.4848
+Epoch 4/50
+----------
+Train Loss: 0.3585 Dice: 0.6105
+Val Loss: 0.3617 Dice: 0.5572
+New best model saved with Dice: 0.5572
+Epoch 5/50
+----------
+Train Loss: 0.2896 Dice: 0.6612
+Val Loss: 0.2964 Dice: 0.6285
+New best model saved with Dice: 0.6285
+Epoch 6/50
+----------
+Train Loss: 0.2349 Dice: 0.7067
+Val Loss: 0.2592 Dice: 0.6609
+New best model saved with Dice: 0.6609
+Epoch 7/50
+----------
+Train Loss: 0.2031 Dice: 0.7335
+Val Loss: 0.2355 Dice: 0.6841
+New best model saved with Dice: 0.6841
+Epoch 8/50
+----------
+Train Loss: 0.1793 Dice: 0.7634
+Val Loss: 0.2132 Dice: 0.7201
+New best model saved with Dice: 0.7201
+Epoch 9/50
+----------
+Train Loss: 0.1684 Dice: 0.7745
+Val Loss: 0.2009 Dice: 0.7514
+New best model saved with Dice: 0.7514
+Epoch 10/50
+----------
+Train Loss: 0.1559 Dice: 0.8035
+Val Loss: 0.1936 Dice: 0.7494
+Epoch 11/50
+----------
+Train Loss: 0.1568 Dice: 0.8081
+Val Loss: 0.1947 Dice: 0.7487
+Epoch 12/50
+----------
+Train Loss: 0.1636 Dice: 0.7860
+Val Loss: 0.1915 Dice: 0.7534
+New best model saved with Dice: 0.7534
+Epoch 13/50
+----------
+Train Loss: 0.1605 Dice: 0.7898
+Val Loss: 0.1873 Dice: 0.7718
+New best model saved with Dice: 0.7718
+Epoch 14/50
+----------
+Train Loss: 0.1605 Dice: 0.7718
+Val Loss: 0.1855 Dice: 0.7533
+Epoch 15/50
+----------
+Train Loss: 0.1605 Dice: 0.7621
+Val Loss: 0.1897 Dice: 0.7365
+Epoch 16/50
+----------
+Train Loss: 0.1522 Dice: 0.7645
+Val Loss: 0.1957 Dice: 0.6997
+Epoch 17/50
+----------
+Train Loss: 0.1481 Dice: 0.7597
+Val Loss: 0.1772 Dice: 0.7325
+Epoch 18/50
+Val Loss: 0.1366 Dice: 0.7878
+New best model saved with Dice: 0.7878
+Epoch 28/50
+----------
+Train Loss: 0.0918 Dice: 0.8513
+Val Loss: 0.1352 Dice: 0.7885
+New best model saved with Dice: 0.7885
+Epoch 29/50
+----------
+Train Loss: 0.0877 Dice: 0.8552
+Val Loss: 0.1233 Dice: 0.8106
+New best model saved with Dice: 0.8106
+Epoch 30/50
+----------
+Train Loss: 0.0790 Dice: 0.8715
+Val Loss: 0.1250 Dice: 0.8071
+Epoch 31/50
+----------
+Train Loss: 0.0809 Dice: 0.8646
+Val Loss: 0.1259 Dice: 0.8051
+Epoch 32/50
+----------
+Train Loss: 0.0850 Dice: 0.8625
+Val Loss: 0.1217 Dice: 0.8138
+New best model saved with Dice: 0.8138
+Epoch 33/50
+----------
+Train Loss: 0.0906 Dice: 0.8551
+Val Loss: 0.1242 Dice: 0.8227
+New best model saved with Dice: 0.8227
+Epoch 34/50
+----------
+Train Loss: 0.0892 Dice: 0.8429
+Val Loss: 0.1274 Dice: 0.7764
+Epoch 35/50
+----------
+Train Loss: 0.0866 Dice: 0.8490
+Val Loss: 0.1227 Dice: 0.8107
+Epoch 36/50
+----------
+Train Loss: 0.0912 Dice: 0.8462
+Val Loss: 0.1391 Dice: 0.7800
+Epoch 37/50
+----------
+Train Loss: 0.1032 Dice: 0.8190
+Val Loss: 0.1486 Dice: 0.7371
+Epoch 38/50
+----------
+Train Loss: 0.1028 Dice: 0.8315
+Val Loss: 0.1212 Dice: 0.8240
+New best model saved with Dice: 0.8240
+Epoch 39/50
+----------
+Train Loss: 0.1140 Dice: 0.8015
+Val Loss: 0.1342 Dice: 0.7852
+Epoch 40/50
+----------
+Train Loss: 0.1651 Dice: 0.7108
+Val Loss: 0.2166 Dice: 0.6383
+Epoch 41/50
+----------
+Train Loss: 0.1398 Dice: 0.7512
+Val Loss: 0.2118 Dice: 0.6201
+Epoch 42/50
+----------
+Train Loss: 0.1371 Dice: 0.7571
+Val Loss: 0.1347 Dice: 0.7630
+Epoch 43/50
+----------
+Train Loss: 0.1100 Dice: 0.8152
+Val Loss: 0.1496 Dice: 0.7550
+Epoch 44/50
+----------
+Train Loss: 0.1085 Dice: 0.8224
+Val Loss: 0.1361 Dice: 0.7907
+Epoch 45/50
+----------
+Train Loss: 0.0995 Dice: 0.8317
+Val Loss: 0.1837 Dice: 0.6626
+Epoch 46/50
+----------
+Train Loss: 0.0995 Dice: 0.8309
+Val Loss: 0.1108 Dice: 0.8329
+New best model saved with Dice: 0.8329
+Epoch 47/50
+----------
+Train Loss: 0.0854 Dice: 0.8638
+Val Loss: 0.1123 Dice: 0.8150
+Epoch 48/50
+----------
+Train Loss: 0.0819 Dice: 0.8687
+Val Loss: 0.1126 Dice: 0.8202
+Epoch 49/50
+----------
+Train Loss: 0.0778 Dice: 0.8725
+Val Loss: 0.1123 Dice: 0.8120
+Epoch 50/50
+----------
+Train Loss: 0.0763 Dice: 0.8697
+Val Loss: 0.1060 Dice: 0.8253
+Training completed in 17619.74 seconds
+Model saved to ./results/final_model\run_20250406_231148\final_model.pth
+Evaluating model on test set...
+Test Loss: 0.0851 Dice: 0.8726
+All results saved to ./results/final_model\run_20250406_231148
+Test Dice Score: 0.8726

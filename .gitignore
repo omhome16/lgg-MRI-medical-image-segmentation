@@ -1,0 +1,20 @@
+# IDE/Editor specific files
+.idea/
+
+# Data directories
+Data/
+lgg_MRI/
+.lgg_MRI/
+
+*.pth
+*.pt
+
+# Virtual environment directory
+venv/
+.venv/
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+.env
